@@ -1,4 +1,4 @@
-# Simple API webservice with Golang
+# Simple API webservice with Golang 
 
 Makesure you have govendor installed, and run
 
@@ -14,3 +14,5 @@ Run Service with command
 Run with docker
 
 `docker build -t sregolang .`
+
+`docker run sregolang`
