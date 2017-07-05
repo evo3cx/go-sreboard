@@ -17,7 +17,7 @@ func main() {
 	route.GET("/", bukalapak.HandleHome)
 	route.GET("/:command", bukalapak.HandleService)
 
-	log.Printf("server start at %s", addr)
+	log.Printf("versi 2 server start at %s", addr)
 	log.Printf("\naddress local server start at http://127.0.0.1%s", addr)
 	log.Fatal(http.ListenAndServe(addr, route))
 }
